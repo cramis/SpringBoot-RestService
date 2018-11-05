@@ -11,6 +11,10 @@ public class User {
 
     private String name;
 
+    public  User(){
+
+    }
+
     public User(Integer id, String name, Date birth) {
         super();
         this.id = id;
